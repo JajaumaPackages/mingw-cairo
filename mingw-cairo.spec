@@ -2,7 +2,7 @@
 
 Name:           mingw-cairo
 Version:        1.14.6
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows Cairo library
 
 License:        LGPLv2 or MPLv1.1
@@ -216,6 +216,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.14.6-2
+- Rebuild with GCC 5.4.0
+
 * Thu Apr 21 2016 Kalev Lember <klember@redhat.com> - 1.14.6-1
 - Update to 1.14.6
 
